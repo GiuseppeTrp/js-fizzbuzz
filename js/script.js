@@ -18,7 +18,7 @@ for(let i = 1; i <= 100 ; i++) {
 
     // faccio il controllo se la i è multipla solo di 3, solo di 5 o di entrambi i numeri
     if(i % 3== 0 && i % 5 == 0 ) {
-        newElement.style.background = "#1389B3"
+        newElement.style.background = "#F0466F"
         newElement.innerHTML = " FizzBuzz";   
     } else if(i % 5 == 0) {
         newElement.style.background = "#FDCF65"
